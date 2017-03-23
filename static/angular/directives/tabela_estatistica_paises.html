@@ -1,0 +1,73 @@
+<div class="">
+  <table class="table listing">
+    <thead>
+    <tr>
+      <th>Ano</th>
+      <th>Janeiro</th>
+      <th>Fevereiro</th>
+      <th>Março</th>
+      <th>Abril</th>
+      <th>Maio</th>
+      <th>Junho</th>
+      <th>Julho</th>
+      <th>Agosto</th>
+      <th>Setembro</th>
+      <th>Outubro</th>
+      <th>Novembro</th>
+      <th>Dezembro</th>
+      <th>Total</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="item in focos.paises | orderBy:'ano'" ng-init="x = $index">
+        <td>
+            {{ item.ano }}
+        </td>
+        <td ng-repeat="mes in item.meses" ng-init="y = $index" ng-class="{maior : mes.quantidade_focos==focos.paises.maximo[y] && mes.quantidade_focos!=focos.paises.minimo[y], menor : mes.quantidade_focos==focos.paises.minimo[y] && mes.quantidade_focos!=focos.paises.maximo[y]}">
+            <span>
+                {{ mes.quantidade_focos }}
+            </span>
+        </td>
+        <td style="background: #ddd none repeat scroll 0 0; font-weight: bold;">
+            {{item.total}}
+        </td>
+    </tr>
+    <tr ng-if="focos.paises.length" class="col_maior">
+        <td>
+            Máximo
+        </td>
+        <td ng-repeat='item in focos.paises.maximo track by $index'>
+            {{ item }}
+        </td>
+        <td>
+            {{focos.paises.maior}}
+        </td>
+    </tr>
+    <tr ng-if="focos.paises.length" class="col_media">
+        <td>
+            Média
+        </td>
+        <td ng-repeat='item in focos.paises.media track by $index'>
+            {{ item }}
+        </td>
+        <td>
+            {{focos.paises.meio}}
+        </td>
+    </tr>
+    <tr ng-if="focos.paises.length" class="col_menor">
+        <td>
+            Mínimo
+        </td>
+        <td ng-repeat='item in focos.paises.minimo track by $index'>
+            {{ item }}
+        </td>
+        <td>
+            {{focos.paises.menor}}
+        </td>
+    </tr>
+    <tr ng-show="!focos.paises.length">
+      <td colspan="14">Nenhum registro encontrado</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

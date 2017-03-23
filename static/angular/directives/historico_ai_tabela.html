@@ -1,0 +1,74 @@
+<div>
+    <table class="table table-striped table-hover">
+    <thead>
+    <tr>
+      <th>Ano</th>
+      <th>Janeiro</th>
+      <th>Fevereiro</th>
+      <th>Março</th>
+      <th>Abril</th>
+      <th>Maio</th>
+      <th>Junho</th>
+      <th>Julho</th>
+      <th>Agosto</th>
+      <th>Setembro</th>
+      <th>Outubro</th>
+      <th>Novembro</th>
+      <th>Dezembro</th>
+      <th>Total</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="item in lista | orderBy:'ano'" ng-init="x = $index">
+        <td>
+            {{ item.ano }}
+        </td>
+        <td ng-repeat="mes in item.meses" ng-init="y = $index">
+            <span
+            ng-class="{maior : mes.dcount==lista.maximo[y] && mes.dcount!=lista.minimo[y], menor : mes.dcount==lista.minimo[y] && mes.dcount!=lista.maximo[y]}">
+                {{ mes.dcount }}
+            </span>
+        </td>
+        <td>
+            {{item.total}}
+        </td>
+    </tr>
+    <tr ng-if="lista.length" class="col_maior">
+        <td>
+            Máximo
+        </td>
+        <td ng-repeat='item in lista.maximo track by $index'>
+            {{ item }}
+        </td>
+        <td>
+            {{lista.maior}}
+        </td>
+    </tr>
+    <tr ng-if="lista.length" class="col_media">
+        <td>
+            Média
+        </td>
+        <td ng-repeat='item in lista.media track by $index'>
+            {{ item }}
+        </td>
+        <td>
+            {{lista.meio}}
+        </td>
+    </tr>
+    <tr ng-if="lista.length" class="col_menor">
+        <td>
+            Mínimo
+        </td>
+        <td ng-repeat='item in lista.minimo track by $index'>
+            {{ item }}
+        </td>
+        <td>
+            {{lista.menor}}
+        </td>
+    </tr>
+    <tr ng-show="!lista.length">
+      <td colspan="13">NENHUM REGISTRO ENCONTRADO</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

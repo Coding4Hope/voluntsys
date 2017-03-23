@@ -1,0 +1,74 @@
+<div>
+    <!--{[focos]}-->
+  <table class="listing table">
+    <thead>
+    <tr>
+      <th>Ano</th>
+      <th>Janeiro</th>
+      <th>Fevereiro</th>
+      <th>Março</th>
+      <th>Abril</th>
+      <th>Maio</th>
+      <th>Junho</th>
+      <th>Julho</th>
+      <th>Agosto</th>
+      <th>Setembro</th>
+      <th>Outubro</th>
+      <th>Novembro</th>
+      <th>Dezembro</th>
+      <th>Total</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="item in focos.estados | orderBy:'ano'" ng-init="x = $index">
+        <td>
+            {{ item.ano }}
+        </td>
+        <td ng-repeat="mes in item.meses" ng-init="y = $index" ng-class="{maior : mes.quantidade_focos==focos.estados.maximo[y] && mes.quantidade_focos!=focos.estados.minimo[y], menor : mes.quantidade_focos==focos.estados.minimo[y] && mes.quantidade_focos!=focos.estados.maximo[y]}">
+            <span>
+                {{ mes.quantidade_focos }}
+            </span>
+        </td>
+        <td>
+            {{item.total}}
+        </td>
+    </tr>
+    <tr ng-if="focos.estados.length" class="col_maior">
+        <td>
+            Máximo
+        </td>
+        <td ng-repeat='item in focos.estados.maximo track by $index'>
+            {{ item }}
+        </td>
+        <td>
+            {{focos.estados.maior}}
+        </td>
+    </tr>
+    <tr ng-if="focos.estados.length" class="col_media">
+        <td>
+            Média
+        </td>
+        <td ng-repeat='item in focos.estados.media track by $index'>
+            {{ item }}
+        </td>
+        <td>
+            {{focos.estados.meio}}
+        </td>
+    </tr>
+    <tr ng-if="focos.estados.length" class="col_menor">
+        <td>
+            Mínimo
+        </td>
+        <td ng-repeat='item in focos.estados.minimo track by $index'>
+            {{ item }}
+        </td>
+        <td>
+            {{focos.estados.menor}}
+        </td>
+    </tr>
+    <tr ng-show="!focos.estados.length">
+      <td colspan="14">Nenhum registro encontrado</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

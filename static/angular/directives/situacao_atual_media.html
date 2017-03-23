@@ -1,0 +1,34 @@
+<h1 id="titulo" style="font-size:24px;text-align:center;">Acumulados Anuais e Diferenças por Estados do Brasil, no intervalo de 01/01 até {{dd_mm}}</h1>
+<h2 style="font-size:22px;text-align:center;">Tabela anual comparativa de estados do Brasil - últimos 7 anos</h2>
+<section>
+    <table class="listing" align="center" style="margin: 0 auto;">
+        <thead>
+        <tr class="odd" style="font-weight:bold">
+            <td> PAÍS </td>
+            <td> {{ sa.ano-6 }} até {{ sa.ano-1 }} </td>
+            <td> Dif % </td>
+            <td> {{ sa.ano }} </td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="estado in sa.estados_list" ng-class-odd="'odd'" ng-class-even="'even'">
+            <td>{{ estado.nome }}</td>
+            <td>
+                {{ ((estado.anos[0].quantidade_focos + estado.anos[1].quantidade_focos + estado.anos[2].quantidade_focos + estado.anos[3].quantidade_focos + estado.anos[4].quantidade_focos + estado.anos[5].quantidade_focos)/6) | integer }}
+            </td>
+            <td>
+                {{ ((estado.anos[6].quantidade_focos/ ((((estado.anos[0].quantidade_focos + estado.anos[1].quantidade_focos + estado.anos[2].quantidade_focos + estado.anos[3].quantidade_focos + estado.anos[4].quantidade_focos + estado.anos[5].quantidade_focos)/6) | integer))  )*100)-100 | integer }}%
+            </td>
+            <td>
+                {{ estado.anos[6].quantidade_focos }} <!--ano 2016 -->
+            </td>
+        </tr>
+        <tr style="background-color:#EBEDC0; font-weight: bold;">
+            <td>TOTAL</td>
+            <td> {{ ((sa.anosTotalEstados[0].quantidade_focos+sa.anosTotalEstados[1].quantidade_focos+sa.anosTotalEstados[2].quantidade_focos+sa.anosTotalEstados[3].quantidade_focos+sa.anosTotalEstados[4].quantidade_focos+sa.anosTotalEstados[5].quantidade_focos)/6) | integer }} </td>
+            <td> {{ ((sa.anosTotalEstados[6].quantidade_focos/(((sa.anosTotalEstados[0].quantidade_focos+sa.anosTotalEstados[1].quantidade_focos+sa.anosTotalEstados[2].quantidade_focos+sa.anosTotalEstados[3].quantidade_focos+sa.anosTotalEstados[4].quantidade_focos+sa.anosTotalEstados[5].quantidade_focos)/6) | integer))*100)-100 | integer }} % </td>
+            <td> {{ sa.anosTotalEstados[6].quantidade_focos }} </td>
+        </tr>
+        </tbody>
+    </table>
+</section>

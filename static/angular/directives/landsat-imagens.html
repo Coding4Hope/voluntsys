@@ -1,0 +1,12 @@
+<div class="{[classe]} lista_landsat" ng-repeat="s in imagens" style="margin-top:30px;">
+    <label ng-click="add_to_map(s)" class="block">
+        <div style="position:relative">
+            <div style="position: absolute;background: rgba(0,0,0,0.2);width: 100%;color: #fff;padding: 10px;font-weight: bold;">
+                <p>{[s.entityId]}</p>
+                <p>{[s.acquisitionDate | date:'yyyy-MM-dd HH:mm']}</p>
+                <p>{[op]}</p>
+            </div>
+            <img ng-class="s.layer ? 'img_selected landsat': ''" ng-src="{[s.thumb_false_color]}" style="width:290px;height:290px" alt="{[s.entityId]}" title="{[s.entityId]}">
+        </div>
+    </label>
+</div>

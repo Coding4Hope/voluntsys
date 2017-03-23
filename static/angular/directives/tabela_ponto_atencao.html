@@ -1,0 +1,45 @@
+<div class="col-md-12" ng-if="lista_areas.length">
+<!--<div class="col-md-12">-->
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="tab-pane fade in active" id="eventos">
+                <h3>Pontos de atenção nas áreas de interesse do {[estado]}</h3>
+                <table id="tabela_eventos" class="table table-striped table-hover" width="100%">
+                    <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Vermelho
+                            <small class="text-muted">(15 dias ou mais)</small>
+                        </th>
+                        <th>Laranja
+                            <small class="text-muted">(de 8 a 14 dias)</small>
+                        </th>
+                        <th>Amarelo
+                            <small class="text-muted">(de 3 a 7 dias)</small>
+                        </th>
+                        <th>Azul
+                            <small class="text-muted">(2 dias)</small>
+                        </th>
+                        <th>Total</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="area in lista_areas | orderBy: sorte" ng-if="area.e_requeimas_vermelho != '0' || area.e_requeimas_laranja != '0' || area.e_requeimas_amarelo != '0' || area.e_requeimas_azul != '0'">
+                        <td>
+                            <span>
+                                <a href="{[BASE.PREFIX_URL]}/area-interesse/{[area.ai_id]}">{[area.ai_nome| uppercase]}</a>
+                            </span>
+                        </td>
+                        <td>{[area.e_requeimas_vermelho]}</td>
+                        <td>{[area.e_requeimas_laranja]}</td>
+                        <td>{[area.e_requeimas_amarelo]}</td>
+                        <td>{[area.e_requeimas_azul]}</td>
+                        <td>{[area.total]}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div ng-if="lista_areas.length" class="col-md-12"><hr class="line_red"></div>
