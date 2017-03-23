@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Associados{% endblock %}
+{% load staticfiles %}
+{% block content %}
+
+<div class="col-md-12">
+    <div class="col-md-12">
+        <h3>Associados</h3>
+        <p>Este módulo apresenta por padrão os Associados.</p>
+    </div>
+    <div class="col-md-12">
+        <div class="form-inline well">
+            <div class="form-group">
+                <label for="ipFiltroNome">Nome</label>
+                <input type="text" class="form-control" ng-model="ipFiltroNome" >
+            </div>
+
+            <a ng-click="getintegrantes()" class="btn btn-default">Filtrar</a>
+        </div>
+      </div>
+      <div class="col-md-10">
+        <table class="table">
+            <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>bairro</th>
+                <th>Endereco</th>
+                <th>Telefone</th>
+                <th>Tipo de Associado</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+
+            {% for vol in lista_associados %}
+            <tr>
+                <td>{{vol.nome}}</td>
+                <td>{{vol.email}}</td>
+                <td>{{vol.bairro.nome}}</td>
+                <td>{{vol.endereco}}</td>
+                <td>{{vol.telefone}}</td>
+                <td>{{vol.tipo_associado.titulo}}</td>
+                <td><a href="editar?id={{i.id}}" class="btn btn-primary btn-xs">editar</a> </td>
+                <td><a href="integra/{{i.id}}" class="btn btn-default btn-xs">carteirinha</a> </td>
+                <td><a href="excluir/{{i.id}}" class="btn btn-danger btn-xs">excluir</a> </td>
+            </tr>
+            {%endfor%}
+        </table>
+    </div>
+    <div class="col-md-2">
+        <a href="/associado-novo" class="btn btn-primary btn-lg">Novo Associado</a>
+    </div>
+</div>
+
+{% endblock %}

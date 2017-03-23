@@ -15,7 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from core.views import *
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-]
+    url(r'^$', home),
+    url(r'^associados/$', associados),
+    url(r'^associado-novo/$', VoluntarioNovoView.as_view(), name ='VoluntarioNovo'),
+] + static(settings.STATIC_URL, document_root=settings.BASE_DIR)
