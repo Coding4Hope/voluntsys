@@ -1,0 +1,106 @@
+{% extends "integrante/base.html" %}
+{% block title %}Eventos{% endblock %}
+{% load staticfiles %}
+{% block content %}
+
+<div class="col-md-12">
+  <form method="post">
+    {%csrf_token%}
+    <div class="col-md-12">
+        <h3>Novo Integrante</h3>
+        <p>Preencha os dados do integrante</p>
+    </div>
+    <div class="col-md-8" ng-app="manager36App" ng-controller="IntegrantesCtrl">
+        <label class="control-label">Apelido</label><br/>
+        <input type="text" name="apelido" class="form-control"/>
+
+        <br/>
+        <label class="control-label">Nome</label><br/>
+        <input type="text" name="nome" class="form-control"/>
+
+        <br/>
+        <label class="control-label">Telefone</label><br/>
+        <input type="text" name="telefone" class="form-control"/>
+
+        <br/>
+        <label class="control-label">Celular</label><br/>
+        <input type="text" name="celular" class="form-control"/>
+
+        <br/>
+        <label class="control-label">Email</label><br/>
+        <input type="text" name="email" class="form-control"/>
+
+        <br/>
+        <label class="control-label">Complemento</label><br/>
+        <input type="text" name="complemento" class="form-control"/>
+
+        <br/>
+        <label class="control-label">Padrinho</label><br/>
+        <select class="form-control" ng-model="padrinho" name="padrinho">
+          <option ng-repeat="i in listaintegrantes" value="{[i.pk]}">{[i.fields.apelido]}-{[i.fields.nome]}</option>
+        </select>
+
+        <br/>
+        <label class="control-label">Estado</label><br/>
+        <select  class="form-control" ng-change="set_cidades()" ng-model="estado" name="estado">
+          <option value="0" selected>Selecione</option>
+          {%for estado in listaestados%}
+            <option value="{{estado.id}}">{{estado.nome}}</option>
+          {%endfor%}
+        </select>
+
+        <br/>
+        <label class="control-label">Cidade</label><br/>
+        <select class="form-control" ng-model="cidade" name="cidade">
+          <option ng-repeat="c in cidades" value="{[c.pk]}">{[c.fields.nome]}</option>
+        </select>
+
+        <br/>
+        <label class="control-label">Situação</label><br/>
+        <select class="form-control" ng-model="situacao" name="situacao">
+          <option ng-repeat="s in situacoes" value="{[s.pk]}">{[s.fields.titulo]}</option>
+        </select>
+
+        <br/>
+        <label class="control-label">Bairro</label><br/>
+        <input type="text" name="bairro" class="form-control"/>
+
+        <br/>
+        <label class="control-label">Endereço</label><br/>
+        <input type="text" name="endereco" class="form-control"/>
+
+        <br/>
+        {%if oficial%}
+        <label class="control-label">Subsede</label><br/>
+        <select class="form-control" name="subsede" >
+          <option value="0" selected>Selecione</option>
+          {%for subsede in listasubsedes%}
+            <option value="{{subsede.id}}">{{subsede.nome}}</option>
+          {%endfor%}
+        </select>
+        {%endif%}
+
+        <br/>
+        <label class="control-label">Hierarquia</label><br/>
+        <select class="form-control" ng-model="hierarquia" name="hierarquia">
+          <option  ng-repeat="hierarquia in listahierarquia"  value="{[hierarquia.pk]}">{[hierarquia.fields.titulo]}</option>
+        </select>
+
+        <br/>
+        <label class="control-label">Cargo</label><br/>
+        <select  class="form-control" name="cargo">
+          <option value="0" selected>Selecione</option>
+          {%for cargo in listacargos%}
+            <option value="{{cargo.id}}">{{cargo.titulo}}</option>
+          {%endfor%}
+        </select>
+    </div>
+
+    <div class="col-md-4">
+        <button type="submit" style="display: block;width: 100%;" class="btn btn-success btn-lg">Salvar</button>
+        <a style="display: block;width: 100%;" class="btn btn-default btn-lg" href="/eventos/">Cancelar</a>
+    </div>
+  </form>
+</div>
+
+{% endblock %}

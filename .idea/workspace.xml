@@ -2,95 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50fac4b8-4f79-4288-a2df-56eed7f45949" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voluntsys/static/img/logo_dom_bosco.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/templates/associados/associado_integra.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/templates/associados/associado_novo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/templates/associados/associados_geral.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/templates/home.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/BaseMarkerMethods.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/FileSaver.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/L.Graticule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/L.SimpleGraticule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/Label.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/Leaflet.label.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/Map.Label.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/Marker.Label.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/Path.Label.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/datatables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/definicoes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/flashcanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/html2canvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/images/marker-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/images/marker-shadow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jQuery.print.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.dataTables.Portuguese-Brasil.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.datatables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.plugin.html2canvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/leaflet-control-maximize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/leaflet-image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/leaflet.fullscreen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/leaflet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/leaflet.label.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/leaflet.latlng-graticule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/leaflet.markercluster.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/math.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/ngprogress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/operacao.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/timeline_focos.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/angular.min.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/angular.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/ciman_app.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/voluntsys_app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/controllers.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/controllers.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/apresentacao-conteudo.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/apresentacao-conteudo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/comparativo_historico.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/comparativo_historico.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/estatistica_pa.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/estatistica_pa.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/estatistica_ti.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/estatistica_ti.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/estatistica_uc.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/estatistica_uc.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/historico_ai_tabela.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/historico_ai_tabela.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/landsat-imagens.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/landsat-imagens.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/loader.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/loader.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/map_default.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/map_default.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/situacao_atual_media.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/situacao_atual_media.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/tabela_estatistica_estados.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/tabela_estatistica_estados.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/tabela_estatistica_paises.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/tabela_estatistica_paises.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/tabela_focos_7.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/tabela_focos_7.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/directives/tabela_ponto_atencao.html" afterPath="$PROJECT_DIR$/voluntsys/static/angular/directives/tabela_ponto_atencao.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/models.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/models.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/models/area_interesse.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/models/area_interesse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/models/estatistica_focos.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/models/estatistica_focos.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/models/evento-requeima.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/models/evento-requeima.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/models/municipio.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/models/municipio.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/models/sit_atual.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/models/sit_atual.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/models/visao_geral.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/models/visao_geral.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/plugins/angular-sanitize.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/plugins/angular-sanitize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/plugins/angular.cookies.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/plugins/angular.cookies.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/plugins/select.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/plugins/select.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/angular/views.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/views.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/bootstrap-datepicker.css" afterPath="$PROJECT_DIR$/voluntsys/static/css/bootstrap-datepicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/voluntsys/static/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/voluntsys/static/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/favicon.ico" afterPath="$PROJECT_DIR$/voluntsys/static/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/voluntsys/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/voluntsys/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/voluntsys/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/voluntsys/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/voluntsys/static/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/voluntsys/static/js/bootstrap-datepicker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/bootstrap-datepicker.pt-BR.js" afterPath="$PROJECT_DIR$/voluntsys/static/js/bootstrap-datepicker.pt-BR.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/voluntsys/static/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/ciman-visao-geral.js" afterPath="$PROJECT_DIR$/voluntsys/static/js/ciman-visao-geral.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/jquery.js" afterPath="$PROJECT_DIR$/voluntsys/static/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/templates/base.html" afterPath="$PROJECT_DIR$/core/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/views.py" afterPath="$PROJECT_DIR$/core/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voluntsys/settings.py" afterPath="$PROJECT_DIR$/voluntsys/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voluntsys/static/angular/controllers.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voluntsys/static/angular/models.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/models.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voluntsys/static/angular/voluntsys_app.js" afterPath="$PROJECT_DIR$/voluntsys/static/angular/voluntsys_app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voluntsys/urls.py" afterPath="$PROJECT_DIR$/voluntsys/urls.py" />
     </list>
     <ignored path="voluntsys.iws" />
@@ -110,92 +27,104 @@
     <favorites_list name="voluntsys" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/voluntsys/settings.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="282">
-                  <caret line="112" column="15" lean-forward="true" selection-start-line="112" selection-start-column="15" selection-end-line="112" selection-end-column="15" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/voluntsys/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="130">
-                  <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-                  <folding>
-                    <element signature="e#643#675#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/templates/base.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/core/views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="312">
-                  <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#19#83#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="355">
-                  <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="15" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="associados_geral.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/templates/associados/associados_geral.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="13">
-                  <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="associado_novo.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/core/templates/associados/associado_novo.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/voluntsys/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="e#643#675#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+              <folding>
+                <element signature="e#19#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/voluntsys/static/angular/models.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/voluntsys/static/angular/controllers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="associados_geral.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/templates/associados/associados_geral.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tiposassociados_geral.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/templates/tiposassociados/tiposassociados_geral.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tipoassociado_novo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/templates/tiposassociados/tipoassociado_novo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tipoassociado_integra.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/templates/tiposassociados/tipoassociado_integra.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -215,11 +144,14 @@
         <option value="$PROJECT_DIR$/core/templates/home.html" />
         <option value="$PROJECT_DIR$/voluntsys/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/core/templates/associados/associados_geral.html" />
+        <option value="$PROJECT_DIR$/core/templates/associados/associado_novo.html" />
+        <option value="$PROJECT_DIR$/voluntsys/static/angular/voluntsys_app.js" />
+        <option value="$PROJECT_DIR$/voluntsys/static/angular/models.js" />
+        <option value="$PROJECT_DIR$/voluntsys/static/angular/controllers.js" />
         <option value="$PROJECT_DIR$/core/templates/base.html" />
         <option value="$PROJECT_DIR$/voluntsys/urls.py" />
         <option value="$PROJECT_DIR$/core/views.py" />
-        <option value="$PROJECT_DIR$/core/templates/associados/associados_geral.html" />
-        <option value="$PROJECT_DIR$/core/templates/associados/associado_novo.html" />
       </list>
     </option>
   </component>
@@ -362,6 +294,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tiposassociados" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voluntsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voluntsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="associados" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -375,16 +329,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/voluntsys" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/templates/tiposassociados" />
       <recent name="$PROJECT_DIR$/core/templates" />
       <recent name="$PROJECT_DIR$/core/templates/voluntarios" />
       <recent name="$PROJECT_DIR$/voluntsys/static/img" />
       <recent name="$PROJECT_DIR$/voluntsys" />
-      <recent name="$PROJECT_DIR$/core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/voluntsys" />
     </key>
   </component>
   <component name="RunManager">
@@ -540,13 +494,13 @@
     <frame x="1400" y="18" width="1886" height="1062" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1689008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13458446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33230454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -558,6 +512,25 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33230454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13458446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -575,6 +548,130 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/voluntsys/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="112" column="15" lean-forward="false" selection-start-line="112" selection-start-column="15" selection-end-line="112" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voluntsys/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#643#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#19#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voluntsys/static/angular/voluntsys_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voluntsys/static/angular/views.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voluntsys/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="112" column="15" lean-forward="false" selection-start-line="112" selection-start-column="15" selection-end-line="112" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voluntsys/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+          <folding>
+            <element signature="e#643#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/associados/associados_geral.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/associados/associado_novo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/voluntsys/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -612,35 +709,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/angular/voluntsys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/angular/voluntsys_app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/static/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="1" column="1963" lean-forward="false" selection-start-line="1" selection-start-column="1963" selection-end-line="1" selection-end-column="1963" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/angular/voluntsys.js" />
+    <entry file="file://$PROJECT_DIR$/static/angular/voluntsys_app.js" />
+    <entry file="file://$PROJECT_DIR$/core/static/js/jquery.js" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,87 +723,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="1" column="1261" lean-forward="false" selection-start-line="1" selection-start-column="1261" selection-end-line="1" selection-end-column="1261" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/integrante_novo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/voluntarios_geral.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/voluntario_novo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/voluntario_integra.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/integrante_novo.html" />
+    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/voluntarios_geral.html" />
+    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/voluntario_novo.html" />
+    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/voluntario_integra.html" />
     <entry file="file://$PROJECT_DIR$/voluntsys/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="112" column="15" lean-forward="true" selection-start-line="112" selection-start-column="15" selection-end-line="112" selection-end-column="15" />
+        <state relative-caret-position="1456">
+          <caret line="112" column="15" lean-forward="false" selection-start-line="112" selection-start-column="15" selection-end-line="112" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/associado_integra.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/associado_novo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/associados_geral.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/associado_integra.html" />
+    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/associado_novo.html" />
+    <entry file="file://$PROJECT_DIR$/core/templates/voluntarios/associados_geral.html" />
     <entry file="file://$PROJECT_DIR$/core/templates/associados/associado_integra.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,45 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/voluntsys/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-          <folding>
-            <element signature="e#643#675#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/templates/associados/associados_geral.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,6 +760,108 @@
         <state relative-caret-position="299">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voluntsys/static/angular/views.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voluntsys/static/angular/voluntsys_app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voluntsys/static/angular/models.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voluntsys/static/angular/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="38" column="54" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/associados/associados_geral.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/tiposassociados/tiposassociados_geral.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/tiposassociados/tipoassociado_novo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/templates/tiposassociados/tipoassociado_integra.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/voluntsys/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#643#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="e#19#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
